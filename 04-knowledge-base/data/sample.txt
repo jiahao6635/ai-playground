@@ -1,0 +1,85 @@
+Python 入门指南
+
+Python 是一种高级、通用、解释型的编程语言。它以简洁的语法和强大的标准库而闻名，适合初学者学习和快速开发。
+
+Python 的设计哲学强调代码的可读性和简洁性。它的缩进规则强制代码块对齐，使得 Python 代码通常比其他语言更易读。
+
+安装 Python
+
+你可以从官网 python.org 下载 Python 安装包。建议安装最新稳定版本（目前是 3.12）。安装时勾选 "Add Python to PATH" 选项。
+
+安装完成后，在终端输入 python --version 验证安装是否成功。
+
+虚拟环境
+
+Python 推荐使用虚拟环境来管理项目依赖。创建虚拟环境的命令是：python -m venv venv。激活虚拟环境后，使用 pip install 安装包，这些包只会安装在当前虚拟环境中，不影响系统全局环境。
+
+基本语法
+
+Python 使用缩进来表示代码块，而不是大括号。例如：
+
+if x > 0:
+    print("正数")
+else:
+    print("非正数")
+
+变量不需要声明类型，Python 会自动推断。例如 name = "Alice" 会将 name 推断为字符串类型。
+
+函数使用 def 关键字定义：def greet(name): return f"Hello, {name}"
+
+数据类型
+
+Python 内置了多种数据类型：
+- 整数 (int)：如 42, -10
+- 浮点数 (float)：如 3.14, -0.5
+- 字符串 (str)：如 "hello"
+- 布尔值 (bool)：True 或 False
+- 列表 (list)：如 [1, 2, 3]
+- 字典 (dict)：如 {"name": "Alice"}
+- 元组 (tuple)：如 (1, 2)
+- 集合 (set)：如 {1, 2, 3}
+
+列表是 Python 中最常用的数据结构之一。它支持索引、切片、添加、删除等操作。
+
+字典用于存储键值对，通过键快速查找值。字典在 Python 3.7+ 中保持插入顺序。
+
+LangChain 简介
+
+LangChain 是一个用于构建 LLM 应用的框架。它提供了统一的接口来连接不同的 LLM 提供商，以及构建复杂应用的工具链。
+
+LangChain 的核心概念包括：
+- Chat Models：与 LLM 交互的接口
+- Prompt Templates：参数化的提示词模板
+- Chains（LCEL）：将多个组件串联的管道
+- RAG：检索增强生成，让 LLM 基于外部知识回答
+- Tools：让 LLM 调用外部工具
+- Agents：自主决策的智能体
+
+LangChain 支持 Python 和 JavaScript/TypeScript 两种语言。Python 版本功能最全、社区最活跃。
+
+LangGraph 简介
+
+LangGraph 是 LangChain 团队推出的图式工作流框架，用于构建有状态、多步骤的 LLM 应用。
+
+LangGraph 的核心概念：
+- StateGraph：有向图，由节点和边组成
+- State：图的状态，在节点间传递和更新
+- Node：图中的处理单元，接收状态、返回更新
+- Edge：节点间的连接，可以是固定的或条件的
+- Checkpointing：状态持久化，支持断点恢复
+- Human-in-the-loop：人工审批和干预
+
+LangGraph 特别适合构建 Agent 和多智能体系统。
+
+向量数据库
+
+向量数据库是 RAG 系统的核心组件。它存储文本的向量表示（embedding），并支持相似度搜索。
+
+常见的向量数据库：
+- FAISS：Facebook 开源，适合本地和小规模数据
+- Chroma：轻量级，易于使用
+- Milvus：分布式，适合大规模生产环境
+- Qdrant：高性能，支持过滤
+- Pinecone：云托管，无需运维
+
+Embedding 模型将文本转换为固定维度的向量。常见的 embedding 模型包括 OpenAI 的 text-embedding-3-small、Cohere 的 embed-multilingual 和开源的 nomic-embed-text。

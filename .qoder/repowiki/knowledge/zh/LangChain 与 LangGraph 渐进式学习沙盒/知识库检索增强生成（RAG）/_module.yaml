@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: knowledge_base
+title: 知识库检索增强生成（RAG）
+scope:
+    - 04-knowledge-base/
+source_files: []
+depends_on: []
+related_to: []

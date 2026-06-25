@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: code_approval
+title: 代码审批与人机协作工作流
+scope:
+    - 09-code-approval/
+source_files: []
+depends_on: []
+related_to: []

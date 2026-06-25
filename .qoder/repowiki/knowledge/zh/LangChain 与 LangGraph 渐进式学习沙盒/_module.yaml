@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: ""
+title: LangChain 与 LangGraph 渐进式学习沙盒
+scope:
+    - README.md
+    - .gitignore
+    - pyproject.toml
+    - .env.example
+source_files: []
+depends_on: []
+related_to: []

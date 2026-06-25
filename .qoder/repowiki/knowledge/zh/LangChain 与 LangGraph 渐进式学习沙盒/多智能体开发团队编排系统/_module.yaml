@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: dev_team
+title: 多智能体开发团队编排系统
+scope:
+    - 10-dev-team/
+source_files: []
+depends_on: []
+related_to: []

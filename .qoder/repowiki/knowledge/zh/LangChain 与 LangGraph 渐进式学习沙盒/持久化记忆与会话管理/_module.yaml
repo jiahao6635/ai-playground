@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: persistent_memory
+title: 持久化记忆与会话管理
+scope:
+    - 08-persistent-memory/
+source_files: []
+depends_on: []
+related_to: []

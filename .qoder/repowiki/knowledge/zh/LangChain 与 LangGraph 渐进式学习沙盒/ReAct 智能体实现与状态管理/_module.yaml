@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: react_agent
+title: ReAct 智能体实现与状态管理
+scope:
+    - 07-react-agent/
+source_files: []
+depends_on: []
+related_to: []

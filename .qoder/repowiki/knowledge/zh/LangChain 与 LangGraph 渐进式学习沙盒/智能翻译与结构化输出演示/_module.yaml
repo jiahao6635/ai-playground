@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: smart_translator
+title: 智能翻译与结构化输出演示
+scope:
+    - 02-smart-translator/
+source_files: []
+depends_on: []
+related_to: []

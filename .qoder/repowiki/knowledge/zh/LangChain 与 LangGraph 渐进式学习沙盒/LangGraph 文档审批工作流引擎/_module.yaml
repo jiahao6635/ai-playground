@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: workflow_engine
+title: LangGraph 文档审批工作流引擎
+scope:
+    - 06-workflow-engine/
+source_files: []
+depends_on: []
+related_to: []

@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: tool_assistant
+title: 智能工具助手与手动 Agent 循环
+scope:
+    - 05-tool-assistant/
+source_files: []
+depends_on: []
+related_to: []
