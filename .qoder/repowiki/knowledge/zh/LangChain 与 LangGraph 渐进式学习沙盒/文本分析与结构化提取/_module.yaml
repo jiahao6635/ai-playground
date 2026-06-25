@@ -1,6 +1,6 @@
 schema_version: 1
 module_path: text_analyzer
-title: 基于 LCEL 的文本分析管道
+title: 文本分析与结构化提取
 scope:
     - 03-text-analyzer/
 source_files: []

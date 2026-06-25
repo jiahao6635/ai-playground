@@ -3,7 +3,7 @@ schema_version: 1
 locale: zh-CN
 branch: main
 nodes_managed: true
-exported_at: "2026-06-25T08:34:51Z"
+exported_at: "2026-06-25T09:41:17Z"
 modules:
     "":
         dir_name: LangChain 与 LangGraph 渐进式学习沙盒
@@ -49,8 +49,8 @@ modules:
         depends_on: []
         related_to: []
     common:
-        dir_name: LLM 初始化与配置管理
-        title: LLM 初始化与配置管理
+        dir_name: LLM 配置与工具共享库
+        title: LLM 配置与工具共享库
         scope:
             - common/
         source_files: []
@@ -139,8 +139,8 @@ modules:
         depends_on: []
         related_to: []
     text_analyzer:
-        dir_name: 基于 LCEL 的文本分析管道
-        title: 基于 LCEL 的文本分析管道
+        dir_name: 文本分析与结构化提取
+        title: 文本分析与结构化提取
         scope:
             - 03-text-analyzer/
         source_files: []
